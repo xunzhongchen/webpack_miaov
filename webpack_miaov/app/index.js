@@ -1,0 +1,1 @@
+document.body.innerHTML='<div>欢迎来到</div>';

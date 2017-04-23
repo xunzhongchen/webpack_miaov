@@ -1,0 +1,9 @@
+npm init
+npm install react --save-dev
+
+
+sudo -s
+npm install webpack -g
+npm install webpack --save-dev
+
+webpack app/index.js build/build.jscd
