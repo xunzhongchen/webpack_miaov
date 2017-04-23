@@ -1,0 +1,19 @@
+$ npm init
+$ npm install
+
+$ npm run build
+
+$ babel-node page.js
+
+
+--------------------------------
+
+$ npm install browser-sync -g
+$ npm install browser-sync --save-dev
+$ browser-sync start --server
+
+$ browser-sync --help
+$ browser-sync start --help
+$ browser-sync start --server -f lib/*.js
+
+

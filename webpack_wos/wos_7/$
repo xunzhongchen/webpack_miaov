@@ -1,0 +1,36 @@
+1.js
+    打包 压缩 混淆
+2.css
+    打包 压缩
+3.img
+    1.ad banner spa
+    2.logo
+    3.icon
+
+
+$ npm install -g node-smushit -g
+$ smushit img
+    压缩分辨率
+
+
+收费的
+$ npm install tinify -g
+$ npm install tinify --save-dev
+
+
+$ tinify
+    获取帮助
+$ tinify img
+
+jpg 3.7M
+png 835K
+
+
+
+$ npm install base64-css --save-dev
+
+node node_modules/base64-css/bin/cli.js -f
+
+
+
+

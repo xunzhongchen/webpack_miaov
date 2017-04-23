@@ -1,0 +1,15 @@
+$ npm install less -g
+$ npm install less --save-dev
+
+
+$ lessc
+    获取帮助
+
+$ lessc css/index.less  index.css
+
+
+
+
+
+
+
