@@ -1,0 +1,74 @@
+npm init
+npm install css-loader style-loader --save-dev
+npm install webpack --save-dev
+
+npm install  webpack-dev-server -g
+npm install webpack-dev-server --save-dev
+
+webpack
+
+webpack-dev-server
+webpack-dev-server --port 3000
+
+webpack-dev-server --hot --inline
+webpack-dev-server --port 3000 --hot --inline
+
+npm run build
+
+
+webpack-dev-server --hot --inline  --content-base ./build/     // --content-base  修改服务器的默认访问目录
+
+
+npm install html-webpack-plugin --save-dev
+
+
+
+"webpack_html":"webpack --config webpack.html.config.js"
+npm run webpack_html   更换配置文件
+
+
+webpack
+
+
+
+npm install babel-cli -g
+
+npm install babel-cli --save-dev
+
+babel app.js --out-file build.js
+
+
+
+
+
+
+
+
+babel es6/index.js --out-file es5/index.js
+
+
+"webpack_babel": "webpack --config webpack.babel.config.js"
+npm install --save-dev babel-loader
+
+  "build_babel": "webpack-dev-server --hot --inline --config webpack.babel.config.js",
+  npm install react react-dom babel-preset-react --save-dev
+
+
+  npm install react-hot-loader --save-dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

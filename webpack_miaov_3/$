@@ -1,0 +1,5 @@
+npm init
+npm install css-loader style-loader --save-dev
+npm install webpack --save-dev
+
+webpack
