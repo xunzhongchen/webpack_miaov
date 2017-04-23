@@ -1,0 +1,35 @@
+
+
+引入  第三方库   包括 cdn
+
+
+---------------------------------------------------------------------------
+var ExtractTextPlugin=require('extract-text-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var webpack=require('webpack')
+
+
+module.exports={
+    //唯一入口文件
+    entry:{
+        app:__dirname+'/src/js/index.js',
+        v:['jquery']
+    },
+
+
+    plugins:[
+
+        new webpack.ProvidePlugin({
+            $:'jquery'
+        }),
+        new webpack.optimize.CommonsChunkPlugin({ name: 'v', filename: 'lib/jquery.min.js' })
+    ],
+    watch:true/*,
+    externals:{
+        jquery:"http://libs.baidu.com/jquery/1.9.1/jquery,min.js"
+    }*/
+}
+
+
+
+//多入口   单一出口

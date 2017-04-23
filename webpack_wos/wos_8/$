@@ -1,0 +1,15 @@
+$ npm install webpack -g
+$ npm install webpack --save-dev
+
+
+开发环境  src
+测试环境
+生产环境  build /assets
+
+
+$ webpack src/js/index.js assets/js/index.js
+
+$ webpack
+
+npm run start
+npm start //唯一简写  省略run

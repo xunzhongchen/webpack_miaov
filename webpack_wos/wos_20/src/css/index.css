@@ -1,0 +1,9 @@
+@import url('./font.css');
+
+
+
+body{
+    background-color:#daaeff;
+    margin: 0;
+    background-image: url("../images/1.jpg");
+}

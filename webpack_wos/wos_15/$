@@ -1,0 +1,16 @@
+$ webpack --watch
+
+
+
+
+也可以在webpack.config.js
+
+
+module.exports={
+
+    watch:true
+}
+
+
+
+$ webpack

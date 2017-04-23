@@ -1,0 +1,26 @@
+vue.js
+前端构建工具 webpack
+    单页应用==spa
+base 64
+
+centos 6以上 （乌班图 企业化） linux
+vmware 虚拟机
+node.js 安装
+
+
+
+
+
+su  获得管理员权限
+
+
+复制
+
+cp -rf node /bin/
+cp -rf npm /bin/
+
+移动
+mv node_modules /lib/
+
+qq:2773817091
+

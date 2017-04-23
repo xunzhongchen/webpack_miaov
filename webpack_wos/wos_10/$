@@ -1,0 +1,25 @@
+npm init -y
+
+npm install webpack-dev-server --save-dev
+
+webpack-dev-server
+webpack-dev-server --inline
+webpack-dev-server --inline --hot
+
+webpack-dev-server --iFrame
+webpack-dev-server --iFrame --hot
+
+    在webpack.config.js 配置文件中 添加 插件
+
+dagaiwan.com  老师个人博客
+
+
+
+npm install css-loader --save-dev
+npm install style-loader --save-dev
+
+
+npm install less-loader less --save-dev
+
+
+{test:正则 loader:解析器，include/exclude:手动添加 或者忽略，query：为loader提供一些额外的配置}

@@ -1,0 +1,52 @@
+$ npm install uglify-js -g
+$ npm install uglify-js ---save-dev
+    js 压缩  （官方推荐 优化工具）
+
+
+$ webapck -p
+    之前版本
+
+
+
+
+    uglifyjs assets/js/index.js -o assets/js/index.min.js
+        压缩
+    uglifyjs assets/js/index.js -m  -o assets/js/index.min2.js
+        压缩 混淆
+
+
+
+
+    ---------------------------------------------------------------------------
+    wos_6
+
+        $ npm install uglifyjs -g
+            js 压缩  混淆
+
+
+        $ browserify ./commonjs/index.js > index.js
+            合并  commonjs规范
+
+        $ uglifyjs index.js -o index.min.js
+            压缩
+        $ uglifyjs index.js -m -o index.min.js
+            混淆
+        $ uglifyjs index.js -m -o index.min.js
+            混淆  压缩
+
+
+---------------------------------------------------------------------------
+module.exports={
+
+    plugins:[
+
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        })
+    ]
+}
+
+
+

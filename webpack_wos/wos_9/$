@@ -1,0 +1,14 @@
+npm init -y
+
+npm install webpack-dev-server --save-dev
+
+webpack-dev-server
+webpack-dev-server --inline
+webpack-dev-server --inline --hot
+
+webpack-dev-server --iFrame
+webpack-dev-server --iFrame --hot
+
+    在webpack.config.js 配置文件中 添加 插件
+
+dagaiwan.com  老师个人博客
