@@ -1,0 +1,23 @@
+$ npm init
+$ npm install
+
+
+模块化规范
+    同步
+        commonjs
+    异步
+        amd
+        cmd 按需加载
+
+--------------------------------
+
+    npm install browserify -g
+    npm install browserify --save-dev
+
+    browserify commonjs/index.js > index.js
+
+
+
+
+
+

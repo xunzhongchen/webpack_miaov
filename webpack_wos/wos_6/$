@@ -1,0 +1,12 @@
+$ npm install uglifyjs -g
+    js 压缩  混淆
+
+
+$ browserify ./commonjs/index.js > index.js
+
+$ uglifyjs index.js -o index.min.js
+    压缩
+$ uglifyjs index.js -m -o index.min.js
+    混淆
+$ uglifyjs index.js -m -o index.min.js
+    混淆  压缩

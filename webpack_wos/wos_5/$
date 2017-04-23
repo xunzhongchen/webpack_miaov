@@ -1,0 +1,11 @@
+$ lessc
+
+$ npm install less-plugin-clean-css -g
+    CSS 压缩
+
+$ npm install less-plugin-clean-css --save-dev
+
+
+lessc ./less/index.less > index.css --clean-css="advanced"
+    预解析 输出  压缩  批处理
+
