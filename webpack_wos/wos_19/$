@@ -1,0 +1,4 @@
+npm install file-loader url-loader --save-dev
+
+
+图片 压缩打包
