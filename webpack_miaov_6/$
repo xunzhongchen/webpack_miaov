@@ -1,0 +1,28 @@
+npm init
+npm install css-loader style-loader --save-dev
+npm install webpack --save-dev
+
+npm install  webpack-dev-server -g
+npm install webpack-dev-server --save-dev
+
+webpack
+
+webpack-dev-server
+webpack-dev-server --port 3000
+
+webpack-dev-server --hot --inline
+webpack-dev-server --port 3000 --hot --inline
+
+npm run build
+
+"build": "webpack-dev-server --hot --inline ", 热加载成功
+"build_content_base": "webpack-dev-server --hot --inline  --content-base ./build/ " 热加载失败
+本地打开 成功
+
+
+webpack-dev-server --hot --inline  --content-base ./build/     // --content-base  修改服务器的目录
+
+npm install html-webpack-plugin --save-dev
+
+
+
