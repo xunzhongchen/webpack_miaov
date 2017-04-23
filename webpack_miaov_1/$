@@ -1,0 +1,2 @@
+npm init
+webpack app/index.js build/build.js
